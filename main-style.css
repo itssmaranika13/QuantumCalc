@@ -1,0 +1,180 @@
+*{margin:0; padding:0; box-sizing: border-box;} 
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #FBF7F4 !important;
+    align-items: center;
+}
+
+/* This is the main heading */
+.heading{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 60px;
+    letter-spacing : 5px;
+    margin-top: 30px;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 70px;
+    color : #50264B;
+    flex-direction: column;
+
+}
+
+/* THis is the subheading */
+
+.subheading{
+    font-size : 12px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top : 5px;
+    letter-spacing: 3px;
+    color: #ABA5A4;
+}
+
+/* This is the hr under the heading */
+
+.horizontal-rule-1{
+    border : none;
+    border-top : 1px solid #D3D0C9;
+    border-bottom: 1px solid #acaba9;
+    width: 10%;
+    margin-top : 20px;
+}
+
+/* This is the big white container */
+
+.container-10{
+    width: 80%;
+    height: 650px;
+    background-color : #FAF5F2;
+    margin-top: 25px;
+    border-top : 2.5px solid white;
+    border-radius : 30px;
+    border-bottom : 2px solid rgb(216, 213, 213);
+    border-left : 2px solid rgb(234, 233, 233);
+    box-shadow : -5px 10px 20px rgb(193, 191, 191);
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* this is the intro text */
+
+.introtext{
+    font-family: 'Times New Roman', sans-serif;
+    color : #ABA5A4;
+    font-size : 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin-bottom : 15px;
+}
+
+.introheader{
+    font-size: 35px;
+    font-weight: 500;
+    color : #402539;
+    margin-bottom: 5px;
+}
+
+
+.container-11, .container-12{
+    width: 48%;
+    height: 80px;
+    background-color : #FAF5F2;
+    margin-top: 25px;
+    border-top : 2.5px solid white;
+    border-radius : 15px;
+    border-bottom : 2px solid rgb(216, 213, 213);
+    border-left : 2px solid rgb(234, 233, 233);
+    box-shadow : -5px 10px 20px rgb(193, 191, 191);
+    padding: 0% 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color : #1B1416;
+    font-size : 13px;
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-13{
+    height: 150px;
+    background-color : #FAF5F2;
+    margin-top: 25px;
+    border-top : 2.5px solid white;
+    border-radius : 15px;
+    border-bottom : 2px solid rgb(216, 213, 213);
+    border-left : 2px solid rgb(234, 233, 233);
+    box-shadow : -5px 10px 20px rgb(193, 191, 191);
+    padding: 0% 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color : #1B1416;
+    font-size : 13px;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calculate-button{
+    border: none;
+    outline: none;
+    height: 50%;
+    width: 30%;
+    background-color: #563354;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Times New Roman', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+.extrotext{
+    font-family: 'Times New Roman', sans-serif;
+    color : #ABA5A4;
+    font-size : 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80%;
+    margin-bottom : 20px;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: 0.6px ;
+}
+
+/* this is the text box */
+
+.text-box{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 350px;
+    padding: 10px 15px;
+    border-radius: 30px;  
+    border: 1px solid #E7E1DF;
+    color: #BAB6B5;
+    font-family: 'Times New Roman', sans-serif;
+}
+
