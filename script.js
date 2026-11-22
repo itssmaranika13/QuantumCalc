@@ -19,7 +19,7 @@ third.addEventListener("click", () => {
 });
 
 fourth.addEventListener("click", () => {
-    window.location.href = "main/main.html";
+    window.location.href = "main.html";
 });
 
 second.forEach(button => {
